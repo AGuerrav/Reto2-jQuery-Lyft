@@ -15,15 +15,15 @@
     <section class="container signIn">
       <div class="row container ">
         <div class=" col-xs-2 col-sm-2">
-          <button onclick="location.href='index.html';" type="button" class="btn btn-default previous" aria-label="Left Align">
+          <button onclick="location.href='signIn.html';" type="button" class="btn btn-default previous" aria-label="Left Align">
             <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
           </button>
         </div>
         <div class="container sign-up col-xs-10 col-sm-10">
           <div class="row">
             <div class="col-xs-10 col-sm-10">
-              <h2>Sign Up</h2>
-              <h4>Join now for free ride credit</h4>
+              <h3 >Verify Phone Number</h3>
+              <h4 >join now for free ride credit</h4>
               <hr>
             </div>
           </div>
@@ -31,15 +31,22 @@
       </div>
       <div class="row">
         <div class=" col-xs-12 col-sm-12">
-          <input class="numberPhone" type="number" id="demo" placeholder="">
-          <p>we'll send a text to verify your phone</p>
+          LAB <spam><input class="code" type="" id="code" placeholder="_ _ _"></spam>
+          <p>Enter you code</p>
         </div>
       </div>
       <div class="row">
         <div class=" col-xs-12 col-sm-12">
-          <button disabled="" onclick="location.href='verify.html';" type="button" class="btn btn-default btn-lg btn-next" aria-label="Left Align">NEXT
+          <button onclick="location.href='verify.html';" type="button" class="btn btn-default btn-lg btn-resend" aria-label="Left Align">Resend code
             <span class=" glyphicon glyphicon-menu-right" aria-hidden="true"></span>
           </button>
+        </div>
+      </div>
+      <div class="row " id="buttons">
+        <div class=" col-xs-12 col-sm-12">
+          <button  onclick="location.href='signUp.html';" class="col-xs-12 col-sm-12 btn btn-default btn-lg btn-codeNext" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NEXT
+          </button>
+
         </div>
       </div>
     </section>
